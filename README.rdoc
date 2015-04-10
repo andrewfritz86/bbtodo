@@ -1,0 +1,17 @@
+#today
+- set up server
+- imported javascripts
+- turned of CSRF protection for peace of mind (would like to know how BB gets around this)
+- etc etc
+#lessons learned
+- sinatra doesn't parse the AJAX request into params, this is request.body.read should work
+- request.body.rewind to go back to the top of a file, your content will still be there for parsing
+- yeahhhhhhh
+
+
+#tomorrow
+- get put and destroy working
+- bother travis for materials
+- render a view! continue tutorial
+
+
